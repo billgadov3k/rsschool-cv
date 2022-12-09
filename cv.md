@@ -10,9 +10,9 @@ Hi
 I am a beginner web developer. I am engaged in the study of various technologies related to the web.
 ### Skills
 - HTML5, CSS
-- JavaScript(Basic)
-- Angular(Basic)
-- Vue 3(Basic)
+- JavaScript (Basic)
+- Angular (Basic)
+- Vue 3 (Basic)
 - Git, GitHub
 - VS Code (WebStorm)
 
