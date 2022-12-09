@@ -7,6 +7,7 @@
 - **Telegram:** @Billgadov
 - **Discord:** Aleksandr(@billgadov3k)
 - **Phone:** +7-921-422-19-79
+- [**codewars:**](https://www.codewars.com/users/billgadov3k)
 
 ---
 
@@ -22,11 +23,15 @@ I am a beginner web developer. I am engaged in the study of various technologies
 - Angular (Basic)
 - Vue 3 (Basic)
 - Git, GitHub
-- VS Code (WebStorm)
+- VS Code
 
 ### Code
 
-++++++++ reserved +++++++++
+```javascript
+const func = (name) => {
+	return "Hello ${name}!";
+};
+```
 
 ### Languages
 
