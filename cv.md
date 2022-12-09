@@ -1,4 +1,4 @@
-![Aleksandr Tugolukov](https://photos.google.com/u/0/photo/AF1QipOVADIuAC2HS4cS_7lz_NHYFCEmd2ocOPfU-SEF?hl=ru)
+![imageup.ru](https://imageup.ru/img182/4102538/img_20181121_195435.jpg)
 
 # Aleksandr Tugolukov
 
