@@ -1,39 +1,50 @@
 ![imageup.ru](https://imageup.ru/img182/4102538/img_20181121_195435.jpg)
 
-# Aleksandr Tugolukov
+# **Aleksandr Tugolukov**
 
-### Contact Information:
+### **Junior Front-End Developer**
+
+### **Contact Information:**
 
 - **Telegram:** @Billgadov
 - **Discord:** Aleksandr(@billgadov3k)
 - **Phone:** +7-921-422-19-79
-- [**codewars:**](https://www.codewars.com/users/billgadov3k)
+- [**Github:**](https://github.com/billgadov3k)
 
 ---
 
-### Currently
+### **About me**
 
-Hi
-I am a beginner web developer. I am engaged in the study of various technologies related to the web.
+#### I am a beginner web developer. I am engaged in the study of various technologies related to the web. I really like the IT industry and modern web technologies.
 
-### Skills
+### **Skills:**
 
 - HTML5, CSS
-- JavaScript (Basic)
-- Angular (Basic)
-- Vue 3 (Basic)
+- JavaScript
+- Angular
+- Vue 3
 - Git, GitHub
 - VS Code
 
-### Code
+---
+
+### **Code:**
 
 ```javascript
-const func = (name) => {
-	return "Hello ${name}!";
-};
+function multiply(a, b) {
+	return a * b;
+}
 ```
 
-### Languages
+---
+
+### **Education:**
+
+#### The Russian Presidential Academy of National Economy and Public Administration (The Presidential Academy, RANEPA)
+
+---
+
+### **Languages:**
 
 - Russian - Native
 - English - Beginner
