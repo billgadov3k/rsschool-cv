@@ -1,3 +1,98 @@
-h1 {
-    color: chocolate;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+}
+
+.container {
+    max-width: 1160px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left-content {
+    width: 460px;
+    height: 1024px;
+    background: #FFE3C2;
+}
+
+.right-content {
+    width: 700px;
+    height: 1024px;
+    background: #217EEB;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    height: 436px;
+}
+
+.img-photo {
+    width:340px;
+    height: 312px;
+    object-fit:cover;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+.about-me {
+    margin-left: 60px;
+    width: 300px;
+}
+
+.about-me h2 {
+    margin-bottom: 12px;
+    width: 300px;
+}
+
+.about-me p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contacts {
+    margin-left: 60px;
+    width: 300px;
+}
+
+.contacts h2 {
+    margin-top: 60px;
+    margin-bottom: 12px;
+    width: 300px;
+}
+
+.contacts p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #000000
+}
+
+.right-content h1 {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.right-content h2 {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 60px;
 }
