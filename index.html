@@ -4,41 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">2
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="left-content">
-            <div class="photo">
-                <img src="./img/IMG_2018.jpg" class="img-photo" alt="img">
+    <header>
+        <nav class="header">
+            <img src="/rsschool-cv/assets/img/JS.svg" alt="logo JS">
+            <a href="#">About me</a>
+            <a href="#">Contacts</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+        </nav>
+    </header>
+    <main>
+        <div class="line-one">
+            <div class="photo card-info">
+                <img class="photo-img" src="" alt="photo">
             </div>
-            <div class="about-me">
-                <h2>About me</h2>
+            <div class="my-informatio-card">
+                <div class="my-name">
+                    <h1>Tugolukov Aleksandr</h1>
+                    <h2>Junior front-end developer</h2>
+                </div>
+                <div class="card-contacts-aboutme">
+                    <div class="my-contacts">
+                        <h2>Contact Information:</h2>
+                        <ul>
+                            <li>
+                                <img src="/rsschool-cv/assets/img/telegram-icon.png" alt="telegram">
+                                <p>Telegram: @Billgadov</p>
+                            </li>
+                            <li>
+                                <img src="/rsschool-cv/assets/img/discord-icon.png" alt="discord">
+                                <p>Discord: Aleksandr(@billgadov3k)</p>
+                            </li>
+                            <li>
+                                <img src="/rsschool-cv//assets/img/phone-icon.png" alt="phone">
+                                <p>Phone: +7-921-422-19-79</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-me">
+                        <h2>About me:</h2>
+                        <p>I am a beginner web developer. I am engaged in the study of various technologies related to
+                            the
+                            web.
+                            I really like the IT industry and modern web technologies.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="line-two">
+            <div class="card-info">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>HTML5, CSS</li>
+                    <li>JavaScript</li>
+                    <li>Angular</li>
+                </ul>
+                <h2>Code:</h2>
+                <code>function multiply(a, b){
+                return a * b;
+            }
+            </code>
+            </div>
+            <div class="card-info card-marg-left ">
+                <h2>Education:</h2>
                 <p>I am a beginner web developer. I am engaged in the study of various technologies related to the web.
-                    I really like the IT industry and modern web technologies.</p>
+                    I
+                    really like the IT industry and modern web technologies.</p>
             </div>
-            <div class="contacts">
-                <h2>Contact Information:</h2>
-                <p>Telegram: @Billgadov</p>
-                <p>Discord: Aleksandr(@billgadov3k)</p>
-                <p>Phone: +7-921-422-19-79</p>
-                <a href="#">Github</a>
-            </div>
-        </div>
-        <div class="right-content">
-            <h1>Aleksandr Tugolukov</h1>
-            <h2>Front-end Developer</h2>
-            <div class="education">
-                <h2>Education</h2>
-                <p>The Russian Presidential Academy of National Economy and Public Administration (The Presidential
-                    Academy,
-                    RANEPA)</p>
+            <div class="card-info card-marg-left">
+                <h2>Languages:</h2>
+                <p>Russian - Native</p>
+                <p>English - Beginner</p>
             </div>
         </div>
-    </div>
+    </main>
+    <footer>
+        <a href="#">Github</a>
+        <a href=""><img src="./assets/img/rs_school_js 1.svg" alt="rs school"></a>
+        <span>2022</span>
+    </footer>
 </body>
 
 </html>
