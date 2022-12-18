@@ -7,16 +7,16 @@
 
 header {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #1AADFF;
 }
 
 .header {
-    width: 1100px;
     margin: auto;
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 200px;
     align-items: center;
 }
 
@@ -31,24 +31,31 @@ main {
     margin: 0 auto;
 }
 
+.photo {
+    background-image: url("./assets/img/photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .line-one {
     display: flex;
     justify-content: center;
-    margin-top: 54px;
+    margin-top: 14px;
 }
 
 .line-two {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 18px;
-    margin-bottom: 54px;
+    margin-bottom: 14px;
 }
 
 a {
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: 500;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 .photo-img {
@@ -63,8 +70,37 @@ a {
     border-radius: 12px;
 }
 
+.code {
+    background-color: rgb(172, 227, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 30%;
+    padding: 10px;
+}
+
 .card-marg-left {
     margin-left: 12px;
+    padding: 34px;
+}
+
+.card-marg-left h2 {
+    margin-bottom: 20px;
+}
+
+.card-skills {
+    padding: 34px;
+}
+
+.card-skills h2 {
+    margin-bottom: 20px;
+}
+
+.card-skills ul {
+    margin-bottom: 20px;
+}
+
+.card-skills li {
+    list-style: none;
 }
 
 .my-informatio-card {
@@ -116,4 +152,23 @@ h1 {
 
 .about-me h2 {
     margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+footer span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
