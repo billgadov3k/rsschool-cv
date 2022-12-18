@@ -4,15 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">2
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon-32x32.png" />
+    <title>CV</title>
 </head>
 
 <body>
     <header>
-        <h1>Hello Rsschool!</h1>
+        <nav class="header">
+            <a href="#aboutme">About me</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+        </nav>
     </header>
+    <main>
+        <div class="line-one">
+            <div class="photo card-info"></div>
+            <div class="my-informatio-card">
+                <div class="my-name">
+                    <h1>Tugolukov Aleksandr</h1>
+                    <h2>Junior front-end developer</h2>
+                </div>
+                <div class="card-contacts-aboutme">
+                    <div class="my-contacts">
+                        <h2 id="contacts">Contact Information:</h2>
+                        <ul>
+                            <li>
+                                <img src="/rsschool-cv/assets/img/telegram-icon.png" alt="telegram">
+                                <p>Telegram: @Billgadov</p>
+                            </li>
+                            <li>
+                                <img src="/rsschool-cv/assets/img/discord-icon.png" alt="discord">
+                                <p>Discord: Aleksandr(@billgadov3k)</p>
+                            </li>
+                            <li>
+                                <img src="/rsschool-cv//assets/img/phone-icon.png" alt="phone">
+                                <p>Phone: +7-921-422-19-79</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-me">
+                        <h2 id="aboutme">About me:</h2>
+                        <p>I am a beginner web developer. I am engaged in the study of various technologies related to
+                            the
+                            web.
+                            I really like the IT industry and modern web technologies.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="line-two">
+            <div class="card-info card-skills">
+                <h2 id="skills">Skills:</h2>
+                <ul>
+                    <li>HTML5, CSS</li>
+                    <li>JavaScript</li>
+                    <li>Angular</li>
+                </ul>
+                <h2>Code Example:</h2>
+                <div class="code">
+                    <code>
+                        function multiply(a, b){<br>
+                            return a * b;<br>
+                            }<br>
+                    </code>
+                </div>
+            </div>
+            <div class="card-info card-marg-left ">
+                <h2 id="education">Education:</h2>
+                <p>The Russian Presidential Academy of National Economy and Public Administration (The Presidential
+                    Academy, RANEPA)</p>
+                <br>
+                <p>St. Petersburg Technical College of Management and Commerce "SPb TKUiK"</p>
+            </div>
+            <div class="card-info card-marg-left">
+                <h2>Languages:</h2>
+                <p>Russian - Native</p>
+                <p>English - Pre intermediate</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/billgadov3k">Github</a>
+        <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js 1.svg" alt="rs school"></a>
+        <span>2022</span>
+    </footer>
 </body>
 
 </html>
