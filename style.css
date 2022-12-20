@@ -31,12 +31,6 @@ main {
     margin: 0 auto;
 }
 
-.photo {
-    background-image: url("./assets/img/photo.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .line-one {
     display: flex;
     justify-content: center;
@@ -58,16 +52,20 @@ a {
     font-size: 22px;
 }
 
-.photo-img {
-    height: 100%;
-    object-fit: contain;
-}
-
 .card-info {
     width: 372px;
     height: 377px;
     border: 4px solid #1AADFF;
     border-radius: 12px;
+}
+
+.photo {
+    width: 372px;
+    height: 377px;
+}
+
+.photo img {
+    border-radius: 10px;
 }
 
 .code {
